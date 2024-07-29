@@ -1,9 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding:0;
     background-color: #f0f0f0;
 }
+   
 
 .header-container {
     display: flex;
@@ -56,6 +57,16 @@ nav ul li a {
 
 #language-switcher button:hover {
     background-color: #555;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+#about {
+    text-align: center;
 }
 
 section {
@@ -175,4 +186,18 @@ form {
     text-align: center;
     color: white;
     padding: 10px 0;
+}
+
+/* Additional CSS for list spacing */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0; /* Adjust margin as needed */
+}
+
+h3 {
+    margin: 20px 0; /* Ensure no extra space around h3 */
 }

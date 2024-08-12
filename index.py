@@ -9,7 +9,6 @@
 <body>
     <header>
         <div class="header-container">
-            <!--img src="images/B.jpg" alt="Artist Image" class="header-image"-->
             <h1>Julie Fabišiková</h1>
             <nav>
                 <ul>
@@ -29,18 +28,27 @@
                 <button onclick="switchLanguage('cs')">Česky</button>
                 <button onclick="switchLanguage('en')">English</button>
             </div>
+            <a href="https://www.instagram.com/vackovajulie" target="_blank">
+            <i class="fab fa-instagram" style="color: white; font-size: 32px;"></i>
+            </a>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         </div>
+        <img src="images/C.jpg" alt="C" class="main-image">
     </header>
         <section id="home">
-            <h2 class="cs">PASTELKAMI NAKRESLÍM VÁŠ PORTRÉT PODLE FOTEK</h2>
-            <h2 class="en" style="display:none;">I WILL DRAW YOUR PORTRAIT ACCORDING TO THE PHOTOS WITH CRAYONS</h2>
-        </div>
-        <img src="images/B.jpg" alt="Art Offer" class="offer-image">
-        
-          <div class="cs">
+            <div class="container">
+                <h2 class="cs">PASTELKAMI NAKRESLÍM VÁŠ PORTRÉT PODLE FOTEK</h2>
+                <h2 class="en" style="display:none;">I WILL DRAW YOUR PORTRAIT ACCORDING TO THE PHOTOS WITH CRAYONS</h2>
+            </div>
+               
+        <div class="cs">
             <ul>
-                <li>Dárek k důležitým výročím a událostem (narozeniny, svátky, svatby, maturita, promoce...)</li>
-                <li>Máte také možnost zvěčnit vaše děti v jejich roztomilosti (a že to uteče jako voda!)</li>
+                <li>☑️Chtěli byste zvěčnit své děti, příbuzné, sebe v nejlepších letech, domácí mazlíčky nebo kohokoli dalšího?
+                <li>☑️Máte chuť na jemnou kresbu překrývanou technikou?
+                <li>☑️Chystáte se obdarovat svoje bližní? (narozeniny, svátky, Vánoce, svatby, maturita, promoce...)<br><br>
+                <li>Pokud jste odpověděli aspoň 1x "ANO", neváhejte mě <a href="#contact">kontaktovat</a> a zadat svou objednávku.
+                </li>
+                
             </ul>
         </div>
         
@@ -49,9 +57,7 @@
                 <li>Gift for important anniversaries and events (birthdays, holidays, weddings, graduation, commencement...)</li>
                 <li>You also have the option to immortalize your children in their cuteness (and it flies by so quickly!)</li>
             </ul>
-        </div>
-        
-        
+        </div>   
     </section>
  <div class="container">
     <section id="about">
@@ -85,8 +91,9 @@ I learned the basics of drawing during my adolescence from Mgr. Jan Majer, who o
                 </div>
                 <h4>Zvířata</h4>
                 <div class="gallery">
-                    <img src="images/11.jpg" alt="Kresba suchý pastel, formát A4" onclick="showModal('images/11.jpg', 'Kresba suchý pastel, formát A4')">
-                    
+                    <img src="images/11.jpg" alt="Kresba pastelkami, formát A3" onclick="showModal('images/11.jpg', 'Kresba pastelkami, formát A3')">
+                    <img src="images/12.jpg" alt="Kresba pastelkami, formát A4" onclick="showModal('images/12.jpg', 'Kresba pastelkami, formát A4')">
+                    <img src="images/13.jpg" alt="Kresba suchý pastel, formát A4" onclick="showModal('images/13.jpg', 'Kresba suchý pastel, formát A4')">
                 </div>
             </div>
             
@@ -100,10 +107,10 @@ I learned the basics of drawing during my adolescence from Mgr. Jan Majer, who o
                 </div>
                 <h4>Zvířata</h4>
                 <div class="gallery">
-                    <img src="images/5.jpg" alt="Malba olejovými barvami, technika Alla prima" onclick="showModal('images/5.jpg', 'Malba olejovými barvami, technika Alla prima')">
-                    <img src="images/6.jpg" alt="Malba olejovými barvami, technika Alla prima" onclick="showModal('images/6.jpg', 'Malba olejovými barvami, technika Alla prima')">
-                    <img src="images/7.jpg" alt="Malba olejovými barvami, technika Alla prima" onclick="showModal('images/7.jpg', 'Malba olejovými barvami, technika Alla prima')">
-                    <img src="images/8.jpg" alt="Malba olejovými barvami, technika Alla prima" onclick="showModal('images/8.jpg', 'Malba olejovými barvami, technika Alla prima')">
+                    <img src="images/5.jpg" alt="Malba olejovými barvami, technika lazury" onclick="showModal('images/5.jpg', 'Malba olejovými barvami, technika lazury')">
+                    <img src="images/6.jpg" alt="Malba olejovými barvami, technika lazury" onclick="showModal('images/6.jpg', 'Malba olejovými barvami, technika lazury')">
+                    <img src="images/7.jpg" alt="Malba olejovými barvami, technika lazury" onclick="showModal('images/7.jpg', 'Malba olejovými barvami, technika lazury')">
+                    <img src="images/8.jpg" alt="Malba olejovými barvami, technika lazury" onclick="showModal('images/8.jpg', 'Malba olejovými barvami, technika lazury')">
                 </div>
             </div>
         </div>
@@ -118,7 +125,9 @@ I learned the basics of drawing during my adolescence from Mgr. Jan Majer, who o
                 </div>
                 <h4>Animals</h4>
                 <div class="gallery">
-                    <img src="images/11.jpg" alt="Dry pastel drawing, A4 format" onclick="showModal('images/11.jpg', 'Dry pastel drawing, A4 format')">
+                    <img src="images/11.jpg" alt="Crayon drawing, A3 format" onclick="showModal('images/11.jpg', 'Crayon drawing, A3 format')">
+                    <img src="images/12.jpg" alt="Crayon drawing, A4 format" onclick="showModal('images/12.jpg', 'Crayon drawing, A4 format')">
+                    <img src="images/13.jpg" alt="Dry pastel drawing, A4 format" onclick="showModal('images/13.jpg', 'Dry pastel drawing, A4 format')">
                 </div>
             </div>
             
@@ -146,15 +155,21 @@ I learned the basics of drawing during my adolescence from Mgr. Jan Majer, who o
         
         <div class="offer-text">
                 
-        <p class="cs">Ceník</p>
-        <p class="en" style="display:none;">Price list</p>
-    
+        <h3 class="cs">Ceník </h3>
+        <h3 class="en" style="display:none;">Price list</h3>
+        <p class="cs">Ručně kreslený portré podle fotek, pastelky, formát A3<br><br>Děti 790 - 1200 Kč<br>Dospělí 690 - 1100 Kč<br>Domácí mazlíčci 600 - 1000 Kč<br><br>Ceny jsou orientační - možnost domluvy dle náročnosti zpracování.<br><br>Při objednávce více portrétů lze uplatnit množstevní slevu 10 %</p>
+        <p class="en" style="display:none;">Handmade portrait with crayons according to photos, A3 format<br><br>Children 790 - 1200 CZK<br>Adults 690 - 1100 CZK<br>Pets 600 - 1000 CZK<br><br>Prices are indicative - negotiable according to difficulty of processing.</p></p>
     </section>
-    
-    <section id="contact">
-        <h2 class="cs">Kontakt</h2>
-        <h2 class="en" style="display:none;">Contact</h2>
-        <form>
+    <div class="container">
+        <section id="contact">
+            <h2 class="cs">Kontakt</h2>
+            <h2 class="en" style="display:none;">Contact</h2>
+            <p class="cs"> Své dotazy a objednávky mi můžete zasílat prostřednictvím e-mailu:
+            
+            <a href="mailto:portretyodsrdce@atlas.cz">portretyodsrdce@atlas.cz</a> <br>IČO: 21862761</p>
+            <p class="en" style="display:none;">Send your questions and orders via email <a href="mailto:portretyodsrdce@atlas.cz">portretyodsrdce@atlas.cz</a>
+            <br>IČO: 21862761</p>
+       <!-- form
             <div class="form-group">
                 <label for="name" class="cs">Jméno:</label>
                 <label for="name" class="en" style="display:none;">Name:</label>
@@ -175,7 +190,9 @@ I learned the basics of drawing during my adolescence from Mgr. Jan Majer, who o
             
             <button type="submit" class="cs">Odeslat</button>
             <button type="submit" class="en" style="display:none;">Send</button>
-        </form>
+        </form> 
+        -->
+    </div> 
     </section>
     
     <!-- Large Image Modal -->
@@ -185,5 +202,14 @@ I learned the basics of drawing during my adolescence from Mgr. Jan Majer, who o
         <div id="imageCaption"></div>
     </div>
     <script src="script.js"></script>
+    <div class="back-to-home">
+        <a href="#home" class="cs">Domů</a>
+        <a href="#home" class="en" style="display: none;">Home</a>
+        <p class="cs"> &copy; Copyright 2024 Julie Fabišiková. Všechna práva vyhrazena.</p>
+        <p class="en" style="display:none;">&copy; Copyright 2024 Julie Fabišiková. All rights reserved.</p>
+    </div>
+    
+    
+    
 </body>
 </html>

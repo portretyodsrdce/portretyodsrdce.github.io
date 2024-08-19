@@ -4,7 +4,16 @@ body {
     padding:0;
     background-color: #f0f0f0;
 }
-   
+p {
+    font-size: 1.2em; /* Larger text */
+    line-height: 1.8; /* More space between lines */
+}
+
+/* Example for headers */
+h1, h2, h3 {
+    font-size: 2em; /* Larger headers */
+    line-height: 1.5; /* Space between lines in headers */
+}   
 
 .header-container {
     display: flex;

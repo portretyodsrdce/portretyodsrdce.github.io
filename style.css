@@ -10,13 +10,17 @@ p {
 }
 
 /* Example for headers */
-h1, h2, h3 {
+h2, h3 {
     font-size: 2em; /* Larger headers */
     line-height: 1.5; /* Space between lines in headers */
-}   
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+}
 
 .header-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: #333;
     color: white;
@@ -39,10 +43,13 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
+    align-items: center;
 }
 
 nav ul li {
-    margin: 0 1em;
+    margin-right: 30px;
+    padding: 1 em;
+    margin: 1 em;
 }
 
 nav ul li a {
@@ -91,6 +98,18 @@ nav ul li a {
 }
 #about {
     text-align: center;
+}
+
+#about img {
+    float: left;
+    margin-right: 20px; /* Upravte mezery podle potřeby */
+}
+
+#technique h2 {
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 section {

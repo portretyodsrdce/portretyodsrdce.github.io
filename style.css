@@ -103,6 +103,7 @@ nav ul li a {
 #about img {
     float: left;
     margin-right: 20px; /* Upravte mezery podle potřeby */
+    cursor: pointer;
 }
 
 #technique h2 {

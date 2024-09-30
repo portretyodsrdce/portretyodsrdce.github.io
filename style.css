@@ -18,6 +18,14 @@ h2, h3 {
     margin: 20px 0;
 }
 
+h4 {
+    font-size: 1.5em; /* Larger headers */
+    line-height: 1.5; /* Space between lines in headers */
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;

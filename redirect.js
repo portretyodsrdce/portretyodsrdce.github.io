@@ -1,12 +1,10 @@
 // redirect.js
-(function() {
+(function () {
+  // Redirect POUZE pokud jsme na GitHub Pages doméně
   if (window.location.hostname === "portretyodsrdce.github.io") {
-    // redirect pouze pokud je hash prázdný (tedy uživatel právě přišel na základní stránku)
-    if (!window.location.hash) {
-      const langFragment = window.location.hash; // tady prázdné, ale pro jistotu
-      const target = 'https://portretyodsrdce.cz/' + langFragment;
-      window.location.replace(target);
+    // Redirect jen pokud není žádný fragment (jazyk)
+    if (!window.location.hash || window.location.hash === "#") {
+      window.location.replace("https://portretyodsrdce.cz/");
     }
-    // Pokud je fragment (#en, #cs), redirect neprovádět, už je na správné stránce
   }
 })();
